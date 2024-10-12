@@ -1,5 +1,6 @@
-# talkatone
-
+# Talkatone
+# UPDATED: 2024-10-13
+# 本地分流 DOMAIN-KEYWORD,tktn.be,美国节点
 DOMAIN-SUFFIX,mobilefuse.com
 DOMAIN-SUFFIX,inmobi.com
 DOMAIN-SUFFIX,crashlytics.com
