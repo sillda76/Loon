@@ -1,9 +1,9 @@
 #!name=Safari聚合搜索
-#!desc=默认百度引擎即可，地址栏输入:gg 充电宝 ,即可切换为谷歌搜索
+#!desc=默认百度引擎即可即可
 #!openUrl=
 #!author=zqzess
 #!homepage=https://github.com/zqzess/rule_for_quantumultX
-#!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Safari.png
+#!icon=https://raw.githubusercontent.com/sillda76/Loon/refs/heads/main/icon/multisearch.png
 
 [URL Rewrite]
 #wk (Wikipedia中文)
