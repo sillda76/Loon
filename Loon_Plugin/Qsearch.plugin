@@ -1,6 +1,6 @@
 #!name=Safari聚合搜索
-#!desc=默认百度引擎即可即可
-#!openUrl=
+#!desc=默认百度引擎即可即可,gg-谷歌/bd-百度/bi-必应
+#!openUrl=https://github.com/sillda76/Loon
 #!author=zqzess
 #!homepage=https://github.com/zqzess/rule_for_quantumultX
 #!icon=https://raw.githubusercontent.com/sillda76/Loon/refs/heads/main/icon/multisearch.png
@@ -41,15 +41,6 @@
 
 # wx (微信)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wx\+([^&]+) https://weixin.sogou.com/weixinwap?query=$2 302
-
-# jd (京东)
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=jd\+([^&]+) https://so.m.jd.com/ware/search.action?keyword=$2 302
-
-# tb (淘宝)
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=tb\+([^&]+) https://s.m.taobao.com/h5?q=$2 302
-
-# tm (天猫)
-^https:\/\/m\.baidu\.com/s\?from=(.+)&word=tm\+([^&]+) https://s.m.tmall.com/m/search.htm?q=$2 302
 
 # ytb (YouTube)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=ytb\+([^&]+) https://www.youtube.com/results?search_query=$2 302
