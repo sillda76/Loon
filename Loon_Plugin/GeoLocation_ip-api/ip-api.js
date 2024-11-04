@@ -1,5 +1,5 @@
 console.log($environment.params);
-var url = "http://ip-api.com/json/";
+var url = "https://api.ip.sb/geoip/";
 
 
 var inputParams = $environment.params;
