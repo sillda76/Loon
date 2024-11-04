@@ -32,7 +32,7 @@ var requestParams = {
 }
 
 var message = ""
-const paras = ["query","as","org","isp","countryCode","city","lon","lat"];
+const paras = ["query","as","org","isp","country","city","lon","lat"];
 const paran = ["IP","IP ASN","ASN Affiliations","ISP","Country","City","Lon","Lat"];
 
 $httpClient.get(requestParams, (error, response, data) => {
