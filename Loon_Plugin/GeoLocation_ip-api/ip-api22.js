@@ -13,17 +13,17 @@ var requestParams = {
 
 var message = ""
 const paras = ["query","isp","as","continent","country","countryCode","city","regionName","timezone"];
-const paran = ["🐈查询IP","🐈ISP","🐈ASN","🐈州","🐈国家","🐈国家代码","🐈城市","🐈区域","🐈时区"];
+const paran = ["🐈查询IP","🐈isp","🐈as","🐈大陆","🐈国家","🐈国家代码","🐈城市","🐈区域","🐈时区"];
 
 $httpClient.get(requestParams, (error, response, data) => {
     if (error) {
         message = "</br></br>🛑 查询超时"
         message = `<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: bold;">` + message + `</p>`
-        $done({"title": 好噜！", "htmlMessage": message});
+        $done({"title": "🔎 完成", "htmlMessage": message});
     } else {
         console.log(data);
         message = data ? json2info(data, paras) : "";
-        $done({"title": "    好噜！", "htmlMessage": message});
+        $done({"title": "    🔎 查询结果", "htmlMessage": message});
     }
 })
 
