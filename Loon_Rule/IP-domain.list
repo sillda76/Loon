@@ -1,0 +1,10 @@
+# # 此处为IP接口分流
+
+DOMAIN-SUFFIX, cip.cc
+DOMAIN-SUFFIX, ipip.net
+DOMAIN-SUFFIX, ip233.cn
+DOMAIN-SUFFIX, pingan.com.cn
+
+# DOMAIN-SUFFIX,speedtest.cn
+# DOMAIN-SUFFIX,ip.im
+# DOMAIN-SUFFIX,ip.plus
