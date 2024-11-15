@@ -8,3 +8,6 @@ DOMAIN-SUFFIX, pingan.com.cn
 # DOMAIN-SUFFIX,speedtest.cn
 # DOMAIN-SUFFIX,ip.im
 # DOMAIN-SUFFIX,ip.plus
+
+DOMAIN-SUFFIX,zijieapi.com,CN_REGION
+IP-CIDR,149.88.82.0/20,no-resolve
