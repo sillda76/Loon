@@ -11,3 +11,5 @@ DOMAIN-SUFFIX, pingan.com.cn
 
 DOMAIN-SUFFIX,zijieapi.com,CN_REGION
 IP-CIDR,149.88.82.0/20,no-resolve
+
+# DOMAIN-SUFFIX,sillda.fun
