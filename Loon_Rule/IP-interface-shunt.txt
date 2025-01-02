@@ -10,6 +10,6 @@ DOMAIN-SUFFIX, pingan.com.cn
 # DOMAIN-SUFFIX,ip.plus
 
 DOMAIN-SUFFIX,zijieapi.com,CN_REGION
-IP-CIDR,149.88.82.0/20,no-resolve
-# DOMAIN-KEYWORD,sillda
+IP-CIDR,149.88.82.0/32,no-resolve
+# DOMAIN-KEYWORD,xxx.com
 
